@@ -1,0 +1,86 @@
+@import url(./navbar/navbar.css);
+header {
+  max-width: 100%;
+  background-image: url(../img/Rectangle.png);
+}
+header .wrapper-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .wrapper-navbar .wrapper-nav1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 250px;
+  margin-right: 20%;
+  color: aliceblue;
+  margin-right: 10%;
+}
+header .wrapper-navbar .wrapper-nav1 h2 {
+  font-size: 30px;
+}
+header .wrapper-navbar ul {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header .wrapper-navbar ul a {
+  color: aliceblue;
+}
+header .wrapper-navbar ul .nav1 {
+  margin-right: 15%;
+}
+header .header-main {
+  display: flex;
+  margin-left: 25%;
+  margin-top: 11%;
+  font-size: 48px;
+  max-width: 710px;
+}
+header .header-main h2 {
+  color: #D4C17F;
+}
+header .span-mause {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+  color: gold;
+  margin-top: 5%;
+}
+header .span-end {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  color: aliceblue;
+  margin-top: 5%;
+  gap: 10px;
+}
+header .span-ends {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  color: aliceblue;
+  padding: 30px;
+  gap: 10px;
+}
+
+@media (max-width: 1200px) {
+  .wrapper-navbar ul {
+    max-width: 90%;
+    gap: 10px;
+  }
+  a {
+    color: aliceblue;
+    font-size: 15px;
+  }
+  .nav1 {
+    margin-right: 40%;
+  }
+}/*# sourceMappingURL=heade.css.map */

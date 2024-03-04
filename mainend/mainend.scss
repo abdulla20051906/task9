@@ -1,0 +1,128 @@
+.main-end{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ .mainend-desc{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+     display: flex;
+     flex-direction: column;
+     margin-top: 5%;
+     gap: 10px;
+     h2{
+        color: #D4C17F;
+     }
+     p{
+        max-width: 535px;
+     }
+ }
+ .mainendglobal{
+    display: flex;
+    gap: 50px;
+ }
+ .mainright{
+    margin-top: 5%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    form{
+        display: flex;
+        gap: 20px;
+         input{
+            padding: 10px;
+            text-align: center;
+         }
+    }
+ }
+ .mainleft{
+    display: flex;
+    gap: 20px;
+    p{
+    max-width: 255px;
+    }
+    .mainbtn{
+        padding: 0px 15px;
+        background: #D4C17F;
+
+    }
+ }
+ .main5{
+    max-width: 400px;
+    height: 400px;
+    margin-top: 5%;
+    background-image: url(../img/hona.jpg);
+    span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         font-size: 36px;
+        padding: 200px 200px;
+
+    }
+ }
+ .main6{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+    h2{
+        color: #D4C17F;
+    
+    }
+    
+    .mainkarta{
+       margin-top: 2%;
+        width: 1000px;
+        height: 200px;
+        background-color: #626262;
+
+    }
+ }
+ .main7{
+    h2{
+        color: #D4C17F;
+    }
+    .main8{
+      padding: 20px;
+        display: flex;
+        gap: 20px;
+        p{
+            max-width: 255px;
+        }
+        .mainendform{
+            display: flex;
+            gap: 20px;
+          
+            
+             input{
+            text-align: center;
+            max-width: 100px;
+            height: 50px;
+            background-color: #626262;
+           
+               
+             }
+             .mainbtns{
+                background-color: #D4C17F;
+                color: aliceblue;
+                
+             }
+        }
+    }
+ }
+}
+@media (max-width:1200px ){
+   .mainkarta{
+      width: 500px;
+   }
+   
+}

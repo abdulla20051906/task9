@@ -1,0 +1,23 @@
+footer{
+    background: #2D343C;
+    max-width: 100%;
+    .foter-global{
+       
+        padding: 30px;
+        display: flex;
+
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        .foterend{
+            display: flex;
+            flex-direction: column;
+            gap:10px;        }
+            .fotericon{
+                display: flex;
+                gap:10px;
+                font-size: 15px;
+            }
+    }
+}

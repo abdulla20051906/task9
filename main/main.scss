@@ -1,0 +1,28 @@
+main{
+    background-image: url(../img/photo_2024-03-03_22-19-12.jpg);
+
+    .main-global{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+     
+        text-align: center;
+
+    }
+    .main1{
+        font-size: 20px;
+        width: 193px;
+        margin-top: 8%;
+        color: aliceblue;
+        margin-bottom: 5%;
+      
+    }
+
+}
+@media (max-widht:1000px) {
+    .main1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

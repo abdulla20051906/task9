@@ -1,0 +1,29 @@
+.main-mid{
+    background-color: rgb(83, 81, 81);
+.main-mid1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.mainmidglobal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+   .main-midtop{
+    background-image: url(../img/hona.jpg);
+    width: 535px;
+    height: 320px;
+    .main3{
+        padding: 230px 100px;
+        max-width: 350px;
+        font-size: 20px;
+        color: aliceblue;
+    }
+
+   }
+
+}

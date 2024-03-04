@@ -1,0 +1,22 @@
+footer {
+  background: #2D343C;
+  max-width: 100%;
+}
+footer .foter-global {
+  padding: 30px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+footer .foter-global .foterend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .foter-global .fotericon {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+}/*# sourceMappingURL=foter.css.map */

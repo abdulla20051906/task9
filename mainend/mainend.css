@@ -1,0 +1,115 @@
+.main-end {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-end .mainend-desc {
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  gap: 10px;
+}
+.main-end .mainend-desc h2 {
+  color: #D4C17F;
+}
+.main-end .mainend-desc p {
+  max-width: 535px;
+}
+.main-end .mainendglobal {
+  display: flex;
+  gap: 50px;
+}
+.main-end .mainright {
+  margin-top: 5%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-end .mainright form {
+  display: flex;
+  gap: 20px;
+}
+.main-end .mainright form input {
+  padding: 10px;
+  text-align: center;
+}
+.main-end .mainleft {
+  display: flex;
+  gap: 20px;
+}
+.main-end .mainleft p {
+  max-width: 255px;
+}
+.main-end .mainleft .mainbtn {
+  padding: 0px 15px;
+  background: #D4C17F;
+}
+.main-end .main5 {
+  max-width: 400px;
+  height: 400px;
+  margin-top: 5%;
+  background-image: url(../img/hona.jpg);
+}
+.main-end .main5 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  padding: 200px 200px;
+}
+.main-end .main6 {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
+}
+.main-end .main6 h2 {
+  color: #D4C17F;
+}
+.main-end .main6 .mainkarta {
+  margin-top: 2%;
+  width: 1000px;
+  height: 200px;
+  background-color: #626262;
+}
+.main-end .main7 h2 {
+  color: #D4C17F;
+}
+.main-end .main7 .main8 {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+.main-end .main7 .main8 p {
+  max-width: 255px;
+}
+.main-end .main7 .main8 .mainendform {
+  display: flex;
+  gap: 20px;
+}
+.main-end .main7 .main8 .mainendform input {
+  text-align: center;
+  max-width: 100px;
+  height: 50px;
+  background-color: #626262;
+}
+.main-end .main7 .main8 .mainendform .mainbtns {
+  background-color: #D4C17F;
+  color: aliceblue;
+}
+
+@media (max-width: 1200px) {
+  .mainkarta {
+    width: 500px;
+  }
+}/*# sourceMappingURL=mainend.css.map */
